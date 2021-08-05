@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Custom CSS voor home scherm */
+
+#trapcontainer {
+    padding: 0 0 !important;
+}
+
+.titel1 {
+    font-size: 4vh;
+}
+
+/* Gele checkmarks als bullet points */
+
+#list {
+    padding: 0 10px 0 0;
+}
+
+#list ul {
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+#list ul li {
+    padding: 0px 0px 10px 40px;
+    background: url('./images/iconfinder-20.png') no-repeat;
+    background-position: 10px 3px;
+}
+
+/* Kernwaarden */
+
+#kernwaarden {
+    width: 75px;
+    height: auto;
+}
+
+.kernwaarden {
+    font-size: 24px;
+}
+
+.toelichting {
+    font-size: 14px;
+}
+
+/* Over mij / image max height */
+
+#station {
+    max-height: 70vh;
+    width: auto;
+}
+
+/* Recensies background image */
+
+.backgroundimage {
+    background-image: url('./images/DenHaag.jpg');
+    background-size: cover;
+    position: center;
+    min-height: 35rem;
+    width: 100%;
+}
+
+/* Contact form image */
+
+#contactFormImage {
+    background-image: url('./images/architecture.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 20rem;
+}
+
+/* Over mij section */
+
+#profilepicture {
+    height: 50vh;
+}
+
+#rotterdam {
+    background-image: url('./images/rotterdam.jpg');
+    background-size: cover;
+    background-position: 30% 66%;
+    height: 40vh;
+    width: auto;
+}
+
+/* Projecten */
+
+#projectimage {
+    width: 72vh;
+    height: auto;
+    max-width: 100%;
+    max-height: 50vh;
+    border-radius: 1%;
+}
+
+
+
